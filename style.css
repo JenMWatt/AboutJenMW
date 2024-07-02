@@ -169,6 +169,7 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
     .section1 img {
         display: flex;
@@ -222,6 +223,7 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
     .section1 img {
         display: flex;
@@ -240,6 +242,12 @@ li {
 }
 
 @media (max-width:300px) {
+    .section1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
     img {
         display: block;
         max-width:200px;
