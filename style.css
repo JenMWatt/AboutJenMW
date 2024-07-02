@@ -235,7 +235,7 @@ li {
     
     .title {
         align-items: center;
-        max-width: 60%;
+        max-width: 90%;
     }
 }
 
@@ -243,5 +243,11 @@ li {
     img {
         display: block;
         max-width:200px;
+    }
+    .box1, .title {
+        align-items: center;
+        flex-direction: row;
+        border-radius: 10px;
+        max-width: 90%;
     }
 }
