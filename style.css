@@ -1,9 +1,8 @@
 body {
     padding: 10px;
     gap:10px;
-    font-size: 20px;
-    color: lavender;
-    background-color: #dcdcdc;
+    font-size: #0A0A0A;
+    background-color: #f5c6ff;
 }
 
 .box1{
@@ -20,7 +19,7 @@ body {
 
 
 .title {
-    background-color: rgb(193, 119, 216);
+    background-color: #ffd2e6;
     border: 1px solid rgb(92, 146, 217);
     border-radius: 10px;
     padding: 5px;
@@ -53,6 +52,7 @@ body {
 .section1 h2, h1 {
     padding: 0%;
     margin: 0px auto;
+    color: #0A0A0A;
 }
 img {
    
@@ -85,7 +85,7 @@ font-size: smaller;
     margin: 10px auto;
     background-color: #cea0ff;
     border-radius: 20px;
-    color: #ffffff;
+    color: #0A0A0A;
 }
 button {
     width: 120px;
@@ -95,7 +95,7 @@ button {
     border-radius: 20px;
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: bolder;
-    color: #ff8aff;
+    color: #0A0A0A;
 }
 button:hover {
     color: #ff44ff;
@@ -103,7 +103,7 @@ button:hover {
     transition-duration: 500ms;
 }
 a {
-    color: #ff8aff;
+    color: #0A0A0A;
     background-color: #ffedff;
     border-radius: 10px;
     padding: 10px ;
@@ -193,7 +193,10 @@ li {
         flex-direction: column;
         align-content: space-around;
     }
-    
+
+    h1, h2 {
+        color: #ffd2e6;
+    }
 }
 
 
@@ -315,10 +318,25 @@ li {
     color: #fbd4d4;
     
     }
+    
+    h1 {
+        color: #ffd2e6;
+    }
+        
+    h2 {
+        color: #ffd2e6;
+    }
+    
+
     .section1 h1 {
         background-color: #481657;
         border: 1px solid #385985;
+        color: #ffd2e6;
         
+        
+    }
+    .section1 h2 {
+        color: #ffd2e6;
     }
     .section1 img {
         
